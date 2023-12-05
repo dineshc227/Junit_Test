@@ -21,8 +21,6 @@ class MyAssertTest {
 		boolean test2=todos.contains("GCP");
 		assertFalse(test2);
 		assertArrayEquals(new int[] {1,2}, new int[] {1,2});
-		
-		
 		assertEquals(10, 10);
 		
 		
